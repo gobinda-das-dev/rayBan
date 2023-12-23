@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Gilroy";
 }
 
 html,
@@ -28,4 +28,41 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
+    background-color: black;
+}
+
+.workingArea {
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+
+nav img {
+    height: 3vw;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.n-left, .n-right {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: .75vw;
+    font-weight: 700;
+    letter-spacing: .05vw;
+    color: white;
+    text-decoration: none;
 }
